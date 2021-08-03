@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74107EE726B9E74D00BAEC6F /* BepluaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74107EE626B9E74D00BAEC6F /* BepluaApp.swift */; };
+		74107EE926B9E74D00BAEC6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74107EE826B9E74D00BAEC6F /* ContentView.swift */; };
+		74107EEB26B9E74F00BAEC6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74107EEA26B9E74F00BAEC6F /* Assets.xcassets */; };
+		74107EEE26B9E74F00BAEC6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74107EED26B9E74F00BAEC6F /* Preview Assets.xcassets */; };
+		74107EF926B9E75000BAEC6F /* BepluaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74107EF826B9E75000BAEC6F /* BepluaTests.swift */; };
+		74107F0426B9E75000BAEC6F /* BepluaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74107F0326B9E75000BAEC6F /* BepluaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74107EF526B9E75000BAEC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74107EDB26B9E74D00BAEC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74107EE226B9E74D00BAEC6F;
+			remoteInfo = Beplua;
+		};
+		74107F0026B9E75000BAEC6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74107EDB26B9E74D00BAEC6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74107EE226B9E74D00BAEC6F;
+			remoteInfo = Beplua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74107EE326B9E74D00BAEC6F /* Beplua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beplua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74107EE626B9E74D00BAEC6F /* BepluaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BepluaApp.swift; sourceTree = "<group>"; };
+		74107EE826B9E74D00BAEC6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74107EEA26B9E74F00BAEC6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74107EED26B9E74F00BAEC6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74107EEF26B9E74F00BAEC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74107EF426B9E75000BAEC6F /* BepluaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BepluaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74107EF826B9E75000BAEC6F /* BepluaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BepluaTests.swift; sourceTree = "<group>"; };
+		74107EFA26B9E75000BAEC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74107EFF26B9E75000BAEC6F /* BepluaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BepluaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74107F0326B9E75000BAEC6F /* BepluaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BepluaUITests.swift; sourceTree = "<group>"; };
+		74107F0526B9E75000BAEC6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74107EE026B9E74D00BAEC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EF126B9E75000BAEC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EFC26B9E75000BAEC6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74107EDA26B9E74D00BAEC6F = {
+			isa = PBXGroup;
+			children = (
+				74107EE526B9E74D00BAEC6F /* Beplua */,
+				74107EF726B9E75000BAEC6F /* BepluaTests */,
+				74107F0226B9E75000BAEC6F /* BepluaUITests */,
+				74107EE426B9E74D00BAEC6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74107EE426B9E74D00BAEC6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74107EE326B9E74D00BAEC6F /* Beplua.app */,
+				74107EF426B9E75000BAEC6F /* BepluaTests.xctest */,
+				74107EFF26B9E75000BAEC6F /* BepluaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74107EE526B9E74D00BAEC6F /* Beplua */ = {
+			isa = PBXGroup;
+			children = (
+				74107EE626B9E74D00BAEC6F /* BepluaApp.swift */,
+				74107EE826B9E74D00BAEC6F /* ContentView.swift */,
+				74107EEA26B9E74F00BAEC6F /* Assets.xcassets */,
+				74107EEF26B9E74F00BAEC6F /* Info.plist */,
+				74107EEC26B9E74F00BAEC6F /* Preview Content */,
+			);
+			path = Beplua;
+			sourceTree = "<group>";
+		};
+		74107EEC26B9E74F00BAEC6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74107EED26B9E74F00BAEC6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74107EF726B9E75000BAEC6F /* BepluaTests */ = {
+			isa = PBXGroup;
+			children = (
+				74107EF826B9E75000BAEC6F /* BepluaTests.swift */,
+				74107EFA26B9E75000BAEC6F /* Info.plist */,
+			);
+			path = BepluaTests;
+			sourceTree = "<group>";
+		};
+		74107F0226B9E75000BAEC6F /* BepluaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74107F0326B9E75000BAEC6F /* BepluaUITests.swift */,
+				74107F0526B9E75000BAEC6F /* Info.plist */,
+			);
+			path = BepluaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74107EE226B9E74D00BAEC6F /* Beplua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F0826B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "Beplua" */;
+			buildPhases = (
+				74107EDF26B9E74D00BAEC6F /* Sources */,
+				74107EE026B9E74D00BAEC6F /* Frameworks */,
+				74107EE126B9E74D00BAEC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beplua;
+			productName = Beplua;
+			productReference = 74107EE326B9E74D00BAEC6F /* Beplua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74107EF326B9E75000BAEC6F /* BepluaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F0B26B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "BepluaTests" */;
+			buildPhases = (
+				74107EF026B9E75000BAEC6F /* Sources */,
+				74107EF126B9E75000BAEC6F /* Frameworks */,
+				74107EF226B9E75000BAEC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74107EF626B9E75000BAEC6F /* PBXTargetDependency */,
+			);
+			name = BepluaTests;
+			productName = BepluaTests;
+			productReference = 74107EF426B9E75000BAEC6F /* BepluaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74107EFE26B9E75000BAEC6F /* BepluaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74107F0E26B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "BepluaUITests" */;
+			buildPhases = (
+				74107EFB26B9E75000BAEC6F /* Sources */,
+				74107EFC26B9E75000BAEC6F /* Frameworks */,
+				74107EFD26B9E75000BAEC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74107F0126B9E75000BAEC6F /* PBXTargetDependency */,
+			);
+			name = BepluaUITests;
+			productName = BepluaUITests;
+			productReference = 74107EFF26B9E75000BAEC6F /* BepluaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74107EDB26B9E74D00BAEC6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					74107EE226B9E74D00BAEC6F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					74107EF326B9E75000BAEC6F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 74107EE226B9E74D00BAEC6F;
+					};
+					74107EFE26B9E75000BAEC6F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 74107EE226B9E74D00BAEC6F;
+					};
+				};
+			};
+			buildConfigurationList = 74107EDE26B9E74D00BAEC6F /* Build configuration list for PBXProject "Beplua" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74107EDA26B9E74D00BAEC6F;
+			productRefGroup = 74107EE426B9E74D00BAEC6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74107EE226B9E74D00BAEC6F /* Beplua */,
+				74107EF326B9E75000BAEC6F /* BepluaTests */,
+				74107EFE26B9E75000BAEC6F /* BepluaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74107EE126B9E74D00BAEC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74107EEE26B9E74F00BAEC6F /* Preview Assets.xcassets in Resources */,
+				74107EEB26B9E74F00BAEC6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EF226B9E75000BAEC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EFD26B9E75000BAEC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74107EDF26B9E74D00BAEC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74107EE926B9E74D00BAEC6F /* ContentView.swift in Sources */,
+				74107EE726B9E74D00BAEC6F /* BepluaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EF026B9E75000BAEC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74107EF926B9E75000BAEC6F /* BepluaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74107EFB26B9E75000BAEC6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74107F0426B9E75000BAEC6F /* BepluaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74107EF626B9E75000BAEC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74107EE226B9E74D00BAEC6F /* Beplua */;
+			targetProxy = 74107EF526B9E75000BAEC6F /* PBXContainerItemProxy */;
+		};
+		74107F0126B9E75000BAEC6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74107EE226B9E74D00BAEC6F /* Beplua */;
+			targetProxy = 74107F0026B9E75000BAEC6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74107F0626B9E75000BAEC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74107F0726B9E75000BAEC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74107F0926B9E75000BAEC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Beplua/Preview Content\"";
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Beplua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.Beplua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74107F0A26B9E75000BAEC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Beplua/Preview Content\"";
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Beplua/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.Beplua;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74107F0C26B9E75000BAEC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				INFOPLIST_FILE = BepluaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.BepluaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beplua.app/Beplua";
+			};
+			name = Debug;
+		};
+		74107F0D26B9E75000BAEC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				INFOPLIST_FILE = BepluaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.BepluaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beplua.app/Beplua";
+			};
+			name = Release;
+		};
+		74107F0F26B9E75000BAEC6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				INFOPLIST_FILE = BepluaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.BepluaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beplua;
+			};
+			name = Debug;
+		};
+		74107F1026B9E75000BAEC6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9W9CBC86A;
+				INFOPLIST_FILE = BepluaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nartkin.BepluaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beplua;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74107EDE26B9E74D00BAEC6F /* Build configuration list for PBXProject "Beplua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F0626B9E75000BAEC6F /* Debug */,
+				74107F0726B9E75000BAEC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F0826B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "Beplua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F0926B9E75000BAEC6F /* Debug */,
+				74107F0A26B9E75000BAEC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F0B26B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "BepluaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F0C26B9E75000BAEC6F /* Debug */,
+				74107F0D26B9E75000BAEC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74107F0E26B9E75000BAEC6F /* Build configuration list for PBXNativeTarget "BepluaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74107F0F26B9E75000BAEC6F /* Debug */,
+				74107F1026B9E75000BAEC6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74107EDB26B9E74D00BAEC6F /* Project object */;
+}
